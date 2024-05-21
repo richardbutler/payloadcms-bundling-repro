@@ -14,19 +14,23 @@
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "beta",
     "@payloadcms/next": "beta",
     "@payloadcms/plugin-cloud": "beta",
     "@payloadcms/richtext-lexical": "beta",
+    "@swc/wasm": "^1.3.35",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "next": "14.3.0-canary.68",
     "payload": "beta",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "sharp": "0.32.6",
-    "@payloadcms/db-postgres": "beta"
+    "server-only": "^0.0.1",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "14.3.0-canary.68",
+    "@swc/core": "^1.5.7",
     "@types/node": "^20.12.12",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
